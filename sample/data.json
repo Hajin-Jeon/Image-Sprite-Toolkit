@@ -1,0 +1,38 @@
+[
+    {
+        "name": "human",
+        "Rectangle": {
+            "x": 79,
+            "y": 43,
+            "width": 118,
+            "height": 256
+        }
+    },
+    {
+        "name": "Hello",
+        "Rectangle": {
+            "x": 296,
+            "y": 83,
+            "width": 295,
+            "height": 155
+        }
+    },
+    {
+        "name": "sample",
+        "Rectangle": {
+            "x": 47,
+            "y": 358,
+            "width": 332,
+            "height": 205
+        }
+    },
+    {
+        "name": "test",
+        "Rectangle": {
+            "x": 467,
+            "y": 300,
+            "width": 289,
+            "height": 154
+        }
+    }
+]

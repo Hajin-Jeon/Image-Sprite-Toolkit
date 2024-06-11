@@ -56,6 +56,14 @@ python image_parse.py -j <json_file> -s <sprite_image> -o <output_folder>
 - `-s, --sprite`: Source sprite image file.
 - `-o, --output`: Folder where cropped images will be saved.
 
+For example,
+
+```bash
+python image_parse.py -j sample/data.json -s sample/image.png -o parsed
+```
+
+will generate `/parsed` folder with four images.
+
 ### 2. `image_merge.py`
 
 This script merges individual images into a sprite sheet. It supports two modes: `manual` and `automatic`.
@@ -71,6 +79,14 @@ python image_merge.py [--mode <mode> -mw <maximum_width>] -i <images_folder> -o 
 - `-i, --images_folder`: Folder containing individual images.
 - `-o, --output`: File path for the resulting sprite image.
 - `-j, --json`: (In Manual mode) Input JSON file for storing position data. (In Automatic mode) Output JSON file for storing position data.
+
+For example,
+
+```bash
+python image_merge.py --mode automatic -mw 500 -i .\parsed\ -o result.png -j result.json
+```
+
+will generate `result.png` and `result.json`.
 
 ## Contributor Information
 
